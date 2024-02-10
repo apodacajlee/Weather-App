@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-left {
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-box{
+    min-height: 150px;
+    border-style: solid;
+    padding: 30px;
+}
